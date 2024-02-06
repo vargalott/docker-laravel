@@ -24,9 +24,9 @@ $ task npm -- i
 $ task up
 ```
 
-6. Replace the `src/.env` file by moving `.env.example` into the `src` folder:
+6. Create your own `src/.env` file by copying `.env.example` into the `src` folder:
 ```
-$ mv -f .env.example src/.env
+$ cp .env.example src/.env
 ```
 > You also can just manually open the ./src/.env file, find the `DB_HOST=127.0.0.1` line and change it to `DB_HOST=mysql`
 
